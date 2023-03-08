@@ -1,0 +1,14 @@
+{
+    "advanceConfig": {
+        "libLoaderPath": "libLoader.dll"
+    },
+  "accounts": [{
+    "id": qq,
+    "passwords": "password",
+    "md5": false,
+    "autoLogin": true
+  }],
+  "cppPaths": [
+  {"path": "MiraiCP-template/build/Debug/MiraiCPPlugin.dll"}
+  ]
+}
