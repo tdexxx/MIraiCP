@@ -1,1 +1,0 @@
-java -jar MiraiCP-loader-2.14.0.jar

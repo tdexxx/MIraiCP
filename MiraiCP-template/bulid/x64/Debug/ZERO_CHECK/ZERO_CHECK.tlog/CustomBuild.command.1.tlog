@@ -1,0 +1,10 @@
+^D:\CODE\MIRAICP\MIRAICP-TEMPLATE\BULID\CMAKEFILES\925052AD68C8D5567AC1E166393D775D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Code/MiraiCP/MiraiCP-template -BD:/Code/MiraiCP/MiraiCP-template/bulid --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Code/MiraiCP/MiraiCP-template/bulid/MIRAICP_TEMPLATE.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
